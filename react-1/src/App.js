@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Message from './Message/Message'
+import Message from './Bacup/Message/Message'
 export class App extends Component {
   render() {
     return (
