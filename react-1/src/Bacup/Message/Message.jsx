@@ -4,7 +4,7 @@ class Message extends Component {
   render() {
     return (
       <div>
-        <h1>Good Morning good</h1>
+        <h1>Good Morning sir</h1>
       </div>
     )
   }
