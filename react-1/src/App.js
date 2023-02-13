@@ -1,15 +1,19 @@
-import React, { Component } from 'react'
-import Message from './Bacup/Message/Message'
-export class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>App Component</h1>
-        <hr />
-        <Message/>
+import React from 'react'
+// import Product from './product/Product'
+// import {store} from './Redux/store'
+// import {Provider} from 'react-redux'
+import ETApp from './Etx/ETApp'
+function App() {
+  return (
+    <div> 
+        {/* <Provider store = {store}>
+          <h1>App component</h1>
+          <Product/>
+        </Provider>
+         */}
+         <ETApp/>
     </div>
-    )
-  }
+  )
 }
 
 export default App
