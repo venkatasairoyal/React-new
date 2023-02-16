@@ -1,18 +1,27 @@
 import React from 'react'
-// import Product from './product/Product'
-// import {store} from './Redux/store'
-// import {Provider} from 'react-redux'
-import ETApp from './Etx/ETApp'
+import Clicked from './eventsreact/functionClick'
+/* import Clap from './eventsreact/classClicked' */
+
+/* import Product from './product2ex.jsx/Product' */
+/* import Product from './Component2/Product' */ ;
+
+/* import Sai2 from './Reactscrap/sai2' */
+/* import Two from './components/two' */
+/* import Three from './React scrap/parent' */
+// import Hero from './components/one'
 function App() {
   return (
     <div> 
-        {/* <Provider store = {store}>
-          <h1>App component</h1>
-          <Product/>
-        </Provider>
-         */}
-         <ETApp/>
-    </div>
+       {/* <Hero/> */}
+       {/* <Two/> */}
+       {/* <Three/>  */}
+       {/*   {<Sai2/>} */}
+       {/*  {<Product/>} */}
+       {/*   {<Product/>} */}
+    {/*    {<Clap/>} */}
+       {<Clicked/>}
+      </div>
+    
   )
 }
 
