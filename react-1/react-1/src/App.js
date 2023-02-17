@@ -7,7 +7,7 @@ import Clicked from './eventsreact/functionClick'
 
 /* import Sai2 from './Reactscrap/sai2' */
 /* import Two from './components/two' */
-/* import Three from './React scrap/parent' */
+import Three from './React scrap/parent'
 // import Hero from './components/one'
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
        {/*   {<Sai2/>} */}
        {/*  {<Product/>} */}
        {/*   {<Product/>} */}
-    {/*    {<Clap/>} */}
+      <Clap/>
        {<Clicked/>}
       </div>
     
